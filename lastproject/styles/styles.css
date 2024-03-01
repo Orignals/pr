@@ -1,0 +1,106 @@
+/* #region table */
+table,
+th,
+td {
+  color: rgb(239, 243, 150);
+  border: 1px solid rgb(239, 243, 150);
+  padding: 0.8%;
+}
+#firstli{
+  width: 12%;
+}
+#instalogo{
+  width: 3%;
+  background: none;
+}
+
+
+
+th span {
+  font-size: 1.8rem;
+  color: rgb(33, 136, 205);
+  background-color: bisque;
+  padding: 0.2%;
+}
+
+td {
+  font-size: 1.4rem;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+td:nth-child(1),
+td:nth-child(3),
+td:nth-child(4) {
+  color: rgb(181, 214, 222);
+}
+
+/* #endregion */
+
+/* #region nav */
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin: 1%;
+}
+
+a:link,
+a:visited {
+  font-size: 1.4rem;
+  color: rgb(191, 216, 175);
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  background: rgba(58, 116, 129, 0.8);
+  transition: border 2s;
+  padding: 0.7%;
+}
+
+
+a:hover {
+  color: rgb(16, 6, 6);
+  background-color: rgb(126, 196, 139);
+  transition: border 2s;
+  border-bottom: 2px solid red;
+}
+
+#logo
+{
+  background:none;
+  border:0;
+}
+
+/* #endregion */
+
+/* #region body */
+body {
+  background-size: cover;
+  background-image: url(../images/backg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  color: rgb(212, 231, 197);
+  background: rgba(128, 128, 128, 0.6);
+  padding: 1%;
+}
+
+/* #endregion */
+
+/* #region header*/
+h1,
+h2,
+h3 {
+  color: rgb(90, 88, 85);
+}
+
+#yellow_colored {
+  color: rgb(255, 255, 216);
+}
+
+p
+{
+  font-size: 1.4rem;
+}
+/* #endregion */
